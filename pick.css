@@ -53,7 +53,7 @@
     animation-direction: normal;
     animation-fill-mode: none;
     animation-play-state: running;
-    
+    line-height: 20px;
 }
 
 .floating {  
@@ -63,6 +63,10 @@
     animation-timing-function: ease-in-out;
     margin-left: 30px;
     margin-top: 5px;
+}
+
+.servpara1,.servpara2 {
+    line-height: 27px;
 }
 
 @keyframes floating {
@@ -294,9 +298,10 @@
     }
      
     .client1{
-    display: flex;
+    display: block;
     flex-direction: row;
     justify-content: center;
+    margin-bottom: 30px;
    }
 
 
@@ -308,6 +313,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-bottom: 30px;
    }
 
    .client3{
@@ -636,10 +642,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 200px;
+    height: 250px;
     color: white;
     position: absolute;
-    top: 299px;
+    top: 250px;
 }
      .fixed-top {
     position: sticky;
@@ -1418,10 +1424,10 @@ button, input, select, textarea {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 230px;
+    height: 250px;
     color: white;
     position: absolute;
-    top: 409px;
+    top: 388px;
 }
      .fixed-top {
     position: sticky;
@@ -4332,6 +4338,7 @@ button, input, select, textarea {
 }
 
 .servpara1 {
+    text-align: center;
     font-family: 'Raleway', sans-serif;
     color: #ffffff;
 }
@@ -5054,6 +5061,7 @@ button, input, select, textarea {
 }
 
 .servpara1 {
+    text-align: center;
     font-family: 'Raleway', sans-serif;
     color: #ffffff;
 }
@@ -5121,7 +5129,7 @@ button, input, select, textarea {
 .blog1para{
     text-align: center;
     font-family: 'Raleway', sans-serif;
-    width: 80%;
+    width: 100%;
 }
 
 .blog1group{
